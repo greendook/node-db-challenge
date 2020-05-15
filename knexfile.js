@@ -1,5 +1,5 @@
 // Update with your config settings.
-
+// this is setting the development
 module.exports = {
   development: {
     client: 'sqlite3',

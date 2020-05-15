@@ -10,23 +10,23 @@ exports.seed = function (knex) {
           projects_completed: true,
         },
         {
-          projects_name: 'aaaaaaaaaa',
-          projects_description: 'wasddfdsgf',
+          projects_name: 'aaaaaa',
+          projects_description: 'wasdgf',
           projects_completed: false,
         },
         {
           projects_name: 'jjjj',
-          projects_description: 'aaaaaaaaadafdsgdsg',
+          projects_description: 'aaaadafdsgdsg',
           projects_completed: false,
         },
         {
-          projects_name: 'eeeeeeeeeeeeeeeee',
-          projects_description: 'aaaaaaaaaaa',
+          projects_name: 'eeeeeeeeeeeee',
+          projects_description: 'aaaaaaaaa',
           projects_completed: false,
         },
         {
           projects_name: 'aeiou',
-          projects_description: 'blah blah blah',
+          projects_description: 'blah',
           projects_completed: false,
         },
       ]);
