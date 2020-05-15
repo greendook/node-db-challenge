@@ -85,6 +85,8 @@ router.post('/', (req, res) => {
     });
 });
 
+// needs project_id and task_description
+
 router.post('/:id/tasks', (req, res) => {
   const addNewTasks = req.body;
 
@@ -92,6 +94,8 @@ router.post('/:id/tasks', (req, res) => {
     res.status(201).json(task);
   });
 });
+
+// needs project_id, resources_name, resources_description
 
 router.post('/:id/resources', (req, res) => {
   const addNewResources = req.body;

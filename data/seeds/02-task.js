@@ -1,3 +1,5 @@
+// needs project_id and task_description
+
 exports.seed = function (knex) {
   return knex('tasks')
     .truncate()
